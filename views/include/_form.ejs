@@ -1,0 +1,37 @@
+<form method="post" id="update_employee">
+    <div class="new_employee">
+        <div class="form-group">
+          <label for="FirstName" class="text-light">FirstName</label>
+          <input type="hidden" name="id" value="">
+          <input type="text" name="name" value="" placeholder="first name">  
+        </div>
+        <div class="form-group">
+            <label for="LastName" class="text-light">LastName</label>
+            <input type="text" name="name" value="" placeholder="last name">  
+        </div>
+        <div class="form-group">
+            <label for="Email" class="text-light">Email</label>
+            <input type="text" name="email" value="" placeholder="abc@gmail.com">  
+        </div>
+        <div class="form-group">
+            <label for="Mobile" class="text-light">Mobile</label>
+            <input type="number" name="mobile" value="" placeholder="9876543210">  
+        </div>
+        <div class="form-group">
+            <label for="Status" class="text-light">Status</label>
+            <div class="radio inline">
+                <input type="radio" name="status" value="Active">
+                <label for="Status" class="radio-label">Active</label>
+            </div>
+            <div class="radio inline">
+                <input type="radio" name="status" value="Inactive">
+                <label for="Status" class="radio-label">Inactive</label>
+            </div>
+        </div>
+
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn text-dark update">Save</button>
+    </div>
+    
+</form>
